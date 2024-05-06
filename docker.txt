@@ -1,0 +1,5 @@
+sudo docker pull OpenJDK
+sudo docker run --name JAVA -it -d OpenJDK
+sudo docker exec -it JAVA jshell
+sudo docker stop id
+sudo docker rm id
